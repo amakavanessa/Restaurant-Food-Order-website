@@ -1,0 +1,238 @@
+/* General Css */
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial,Helvetica, sans-serif;
+}
+
+.container{
+    width:80%;
+    margin:0% auto; 
+    padding:1%;
+}
+.img_responsive{
+    width:100%;
+}
+.img_curve{
+   border-radius: 15px; 
+}
+.text_right{
+    text-align:right;
+}
+.text_center{
+    text-align:center;
+}
+.text_white{
+    color:white;
+}
+.text_black{
+    color:#2f3542;;
+}
+.clearfix{
+    clear: both;
+    float:none;
+}
+a{
+    color:#0bc181;
+    text-decoration: none;
+}
+a:hover{
+    color:#0cdb7b;
+}
+.btn{
+    padding:1%;
+    border:none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn_primary{
+    background-color:turquoise;
+    color:white;
+    cursor: pointer;
+}
+.btn_primary:hover{
+    background-color:#00d8d6 ;
+    color:white;
+}
+.success{
+    color:#85dd85;
+}
+.error{
+    color:#d46161;
+}
+h2{
+    color:#2f3542;
+    font-size:2rem ;
+    margin-bottom:2%;
+}
+h3{
+    font-size:1.5rem;
+}
+.float_container{
+    position: relative;
+}
+.float_text{
+    position: absolute;
+    bottom:30px;
+    left:30%;
+
+}
+
+/* css for nav bar section */
+.logo{
+    width: 10%;
+    float:left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+
+}
+.menu ul li{
+    display:inline;
+    padding:1%;
+    font-weight:bold;
+}
+
+/* Css for food search section */
+.food_search{
+    background-image: url(../Images/food-delicious-wallpapers-beautiful-119610.jpg);
+    padding:7% 0;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+
+}
+.food_search input[type="search"]{
+    width:50%;
+    padding:1%;
+    font-size:1rem;
+    border:none;
+    border-radius: 5px;
+    background-color:transparent;
+    border-bottom: 1px solid #2f3542;
+    outline:none;
+}
+/* css for explore_food */
+.explore_food{
+    padding: 2% 0;
+}
+.box_3{
+    width:28%;
+    float:left;
+    margin:2%;
+}
+/* css for food_menu */
+.food_menu{
+    background-color: whitesmoke;
+    padding:4%;
+}
+.food_menubox{
+    width:43%;
+    margin: 1%;
+    padding:2%;
+    float:left;
+    background-color: white;border-radius: 10px;
+
+}
+.food_menu_img{
+    width:20%;
+    float:left;
+}
+.food_menu_desc{
+    width:70%;
+    float:left;
+    margin-left:8%
+}
+.food_price{
+    font-size:1.2rem;
+    margin:2% 0;
+}
+.food_detail{
+    font-size:1rem;
+    color:#747dac
+}
+
+/* Css for social media section */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display:inline;
+    padding :1%; 
+}
+/* for order section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset{
+    padding:3%;
+}
+.input_responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-bottom: 1px solid black;
+    /* border-radius: 5px; */
+    font-size: 1rem;
+    background-color:transparent;
+    outline: none;
+}
+.order_label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+/* css for mobile site */
+@media only screen and (max-width:760px){
+    h2{
+        margin: 10% 0;
+    }
+    .logo{
+        width:80%;
+        float:none;
+        margin:1% auto;
+    }
+    .menu ul{
+        text-align: center;
+        font-size:14px
+    } 
+    .food_search{
+        min-height: auto;
+        padding:10% 0;
+    }
+    .food_search input[type="search"]{
+        width:90%;
+        margin:5%;
+        padding:2%
+    }
+    .explore_food{
+        padding:2% 0;
+    }
+    .box_3{
+        width:95%;
+        margin:4% auto;
+        float: none;
+    }
+    .food_menu{
+        padding:20% 0;
+    }
+    .food_menubox{
+        width:90%;
+        padding:5%;
+        margin-bottom: 10%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+
+}
